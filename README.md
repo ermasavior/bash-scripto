@@ -1,11 +1,17 @@
 # Bash Scripto
 
-1. Install phpcs `apt-get install php-codesniffer`
-2. Grant exec permissions `chmod +x *.sh`
+## Usage
+Grant exec permission by executing `chmod +x *.sh`
 
-## Tubes Repo Bulk Downloader
+### Tubes Repo Bulk Downloader
 
-1. `./download-tubes1.sh /path/to/output/dir`
+Execute downloader script with command below
 
-## PHPCS Linter
-TBD
+    ./download-tubes1.sh /path/to/tubes/root/dir`
+
+### PHPCS Linter
+
+1. Install phpcs cli `apt-get install php-codesniffer`
+2. Execute `php-linter.sh` script
+
+    ./linter.sh /path/to/tubes/root/dir >> result.csv
